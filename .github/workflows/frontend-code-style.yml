@@ -1,0 +1,37 @@
+name: Code Standards & Quality
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        default: '22'
+  push:
+    paths:
+      - 'frontend/**'
+
+jobs:
+  build:
+    name: Check Code standards & Quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: 🛫 Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Frontend Environment
+        uses: ./.github/actions/frontend-setup
+        with:
+          node-version: ${{ inputs.node-version }}
+
+      - name: 🔎 Lint code
+        # run: pnpm run lint
+        run: echo "Linting is disabled for now"
+
+      - name: 📝 Checking code format
+        # run: pnpm run format
+        run: echo "Code formatting is disabled for now"
+
+      - name: 🚀 Build the project
+        run: pnpm run build

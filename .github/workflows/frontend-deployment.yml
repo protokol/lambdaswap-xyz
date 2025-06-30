@@ -1,0 +1,37 @@
+name: Frontend Production Deployment
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        default: '22'
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy Frontend
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 🛫 Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Frontend Environment
+        uses: ./.github/actions/frontend-setup
+        with:
+          node-version: ${{ inputs.node-version }}
+
+      - name: 🚀 Deploy to Vercel (Production)
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: 'team_Men14SflVoRjJ10FRChV3qZ0'
+          vercel-project-id: 'prj_bJsI9h768KauXbG9e3hwT9D3ir0V'
+          scope: protokol
+          alias-domains: 'lambdaswap.xyz'

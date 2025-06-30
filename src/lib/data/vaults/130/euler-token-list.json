@@ -1,0 +1,186 @@
+[
+  {
+    "addressInfo": "0x4200000000000000000000000000000000000006",
+    "chainId": 310,
+    "name": "Wrapped Ether",
+    "decimals": 18,
+    "symbol": "WETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "chainId": 310,
+    "name": "USDC",
+    "decimals": 6,
+    "symbol": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x9151434b16b9763660705744891fA906F660EcC5",
+    "chainId": 310,
+    "name": "USDT0",
+    "decimals": 6,
+    "symbol": "USDT0",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x8f187aA05619a017077f5308904739877ce9eA21",
+    "chainId": 310,
+    "name": "Unichain",
+    "decimals": 18,
+    "symbol": "UNI",
+    "logoURI": "https://assets.coingecko.com/coins/images/12504/standard/uniswap-logo.png?1720676669",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "chainId": 310,
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "symbol": "WBTC",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/54335/large/wbtc.jpg?1739334808",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "chainId": 310,
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "symbol": "ezETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png?1713496404",
+    "meta": { "provider": "RENZO" }
+  },
+  {
+    "addressInfo": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
+    "chainId": 310,
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "symbol": "wstETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295",
+    "meta": {
+      "provider": "DEFILLAMA",
+      "poolId": "747c1d2a-c668-4682-b9f9-296708a3dd90"
+    }
+  },
+  {
+    "addressInfo": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "chainId": 310,
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "symbol": "ezETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png?1713496404",
+
+    "meta": { "provider": "RENZO" }
+  },
+  {
+    "addressInfo": "0xc3eACf0612346366Db554C991D7858716db09f58",
+    "chainId": 310,
+    "name": "KelpDao Restaked ETH",
+    "decimals": 18,
+    "symbol": "rsETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/33800/large/Icon___Dark.png?1702991855",
+    "meta": {
+      "provider": "DEFILLAMA",
+      "poolId": "33c732f6-a78d-41da-af5b-ccd9fa5e52d5"
+    }
+  },
+  {
+    "addressInfo": "0x4200000000000000000000000000000000000006",
+    "chainId": 310,
+    "name": "Wrapped Ether",
+    "decimals": 18,
+    "symbol": "WETH",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+    "chainId": 310,
+    "name": "Wrapped eETH",
+    "decimals": 18,
+    "symbol": "weETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396",
+    "meta": { "provider": "ETHERFI" }
+  },
+  {
+    "addressInfo": "0xc3eACf0612346366Db554C991D7858716db09f58",
+    "chainId": 310,
+    "name": "KelpDao Restaked ETH",
+    "decimals": 18,
+    "symbol": "rsETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/33800/large/Icon___Dark.png?1702991855",
+    "meta": {
+      "provider": "DEFILLAMA",
+      "poolId": "33c732f6-a78d-41da-af5b-ccd9fa5e52d5"
+    }
+  },
+  {
+    "addressInfo": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
+    "chainId": 310,
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "symbol": "wstETH",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295",
+    "meta": {
+      "provider": "DEFILLAMA",
+      "poolId": "747c1d2a-c668-4682-b9f9-296708a3dd90"
+    }
+  },
+  {
+    "addressInfo": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "chainId": 310,
+    "name": "USDC",
+    "decimals": 6,
+    "symbol": "USDC",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x14d9143BEcC348920b68D123687045db49a016C6",
+    "chainId": 310,
+    "name": "Spark USDC",
+    "decimals": 18,
+    "symbol": "sUSDC",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+    "meta": { "provider": "SPARK" }
+  },
+  {
+    "addressInfo": "0xA06b10Db9F390990364A3984C04FaDf1c13691b5",
+    "chainId": 310,
+    "name": "sUSDS",
+    "decimals": 18,
+    "symbol": "sUSDS",
+    "logoURI": "",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C",
+    "chainId": 310,
+    "name": "USDS",
+    "decimals": 18,
+    "symbol": "USDS",
+    "logoURI": "",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98",
+    "chainId": 310,
+    "name": "kBTC",
+    "decimals": 18,
+    "symbol": "kBTC",
+    "logoURI": "",
+    "meta": {}
+  },
+  {
+    "addressInfo": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
+    "chainId": 310,
+    "name": "wBTC bridged",
+    "decimals": 18,
+    "symbol": "wBTC-bridged",
+    "logoURI": "",
+    "meta": {}
+  }
+]

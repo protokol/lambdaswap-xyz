@@ -1,0 +1,35 @@
+name: 'Frontend Setup'
+description: 'Checks out code, sets up Node.js, pnpm, and installs dependencies for the frontend.'
+inputs:
+  node-version:
+    description: 'Node.js version to use'
+    required: false
+    default: '22'
+  pnpm-version:
+    description: 'pnpm version to install'
+    required: false
+    default: '10'
+
+runs:
+  using: 'composite'
+  steps:
+    # This checkout is for the composite action's own context, allowing it to access repo files if needed.
+    # The calling workflow also needs a checkout step *before* calling this local action.
+    - name: 🛫 Checkout code (within composite action)
+      uses: actions/checkout@v4
+
+    - name: '📦 Install pnpm'
+      uses: pnpm/action-setup@v4
+      with:
+        version: ${{ inputs.pnpm-version }}
+
+    - name: 🔧 Setup Node.js ${{ inputs.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: 'pnpm'
+        cache-dependency-path: pnpm-lock.yaml
+
+    - name: 📦 Install dependencies
+      run: pnpm install --frozen-lockfile
+      shell: bash # This IS REQUIRED for 'run:' steps

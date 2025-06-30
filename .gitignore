@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.vercel
+schema.graphql
+src/gql/*
+src/lib/data/vaults/**/**.json
+!src/lib/data/vaults/130/euler-token-list.json
+.env
